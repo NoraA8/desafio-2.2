@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.header {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #444444;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.h1 {
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.decoration {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  color: whitesmoke;
+  border: 0;
+  background-color: #444444;
+}
+.footer {
+  text-align: center;
+  padding: 0.5rem;
+  color: whitesmoke;
+  background-color: #444444;
+}
+.h3 {
+  margin: 0;
+}
+.container-grid {
+  display: grid;
+  width: 200vh;
+  gap: 15px;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  border: 1px solid #444444;
+}
+.card:nth-child(1) {
+  grid-area: a;
+}
+.card:nth-child(2) {
+  grid-area: b;
+}
+.card:nth-child(3) {
+  grid-area: c;
+}
+.card:nth-child(4) {
+  grid-area: d;
+}
+.card:nth-child(5) {
+  grid-area: e;
+}
+.card:nth-child(6) {
+  grid-area: f;
+}
+.btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
